@@ -1,14 +1,14 @@
 @mixin mesos-distance($site_height) {
-    float: left;
-    height: 50%;
-    margin-bottom: -($site_height / 2);
-    width: 1px;
+  float: left;
+  height: 50%;
+  margin-bottom: -($site_height / 2);
+  width: 1px;
 }
 
 @mixin mesos-wrapper {
-    clear: left;
-    margin: 0 auto;
-    position: relative;
+  clear: left;
+  margin: 0 auto;
+  position: relative;
 }
 
 html, body {
